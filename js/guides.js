@@ -1,4 +1,4 @@
-document.onload = function () {
+window.onload = function () {
     console.log('jade guides loaded');
     var body= document.getElementsByTagName('body')[0];
     var script= document.createElement('script');
