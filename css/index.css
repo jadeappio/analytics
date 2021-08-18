@@ -20,7 +20,7 @@
     overflow: visible !important;
 }
 .jade-guides-widget{
-    position: fixed !important;
+    position: relative !important;
     display: block !important;
     flex-direction: column !important;
     visibility: visible !important;
