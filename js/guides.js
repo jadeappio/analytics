@@ -14,7 +14,8 @@ window.onload = function () {
     j.setAttribute('class', 'jade-guides-widget');
     j.setAttribute('src', 'https://jadeapp.io/widget');
     j.setAttribute('allowfullscreen', 'true');
-    j.style.zIndex="2147483647";
+    j.sandbox='allow-scripts allow-same-origin';
+    j.style.zIndex='2147483647';
     window.document.body.appendChild(j);
     var script = document.createElement('script');
     script.type = 'text/javascript';
