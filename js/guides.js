@@ -12,10 +12,12 @@ window.onload = function () {
     var j = window.document.createElement('iframe');
     j.setAttribute('id', 'jade-guides-iframe');
     j.setAttribute('class', 'jade-guides-widget');
-    j.setAttribute('src', 'https://jadeapp.io/widget');
-    j.setAttribute('allowfullscreen', 'true');
-    j.sandbox='allow-scripts allow-same-origin';
-    j.style.zIndex='2147483647';
+    j.setAttribute('src', 'https://marvelapp.com/prototype/a4dc4j5');
+    j.setAttribute('width', '1440');
+    j.setAttribute('height', '1024');
+    j.setAttribute('allowTransparency', 'true');
+    j.setAttribute('frameborder', '0');
+    j.setAttribute('style', '-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);');
     window.document.body.appendChild(j);
     var script = document.createElement('script');
     script.type = 'text/javascript';
