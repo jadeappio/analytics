@@ -35,8 +35,8 @@
     text-decoration: none !important;
     transform: none !important;
     margin-bottom: 15px !important;
-    width: 100px !important;
-    height: 100px !important;
+    width: 225px !important;
+    height: 175px !important;
     overflow: visible !important;
     white-space: nowrap;
     box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
@@ -52,4 +52,6 @@
     z-index: 2147483647 !important;
     margin: 0 !important;
     opacity: 1 !important;
+    cursor: pointer;
+    transform: scale3d(1, 1, 1);
 }
