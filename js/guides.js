@@ -18,6 +18,7 @@ window.onload = function () {
     j.setAttribute('allowTransparency', 'true');
     j.setAttribute('frameborder', '0');
     j.setAttribute('style', '-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);');
+    j.style.zIndex="9999999"
     window.document.body.appendChild(j);
     var script = document.createElement('script');
     script.type = 'text/javascript';
