@@ -27,6 +27,9 @@ window.onload = function () {
     } else {
         console.log('jquery pre-loaded');
     };
+    $('.jade-widget-icon').on('click', function () {
+    	$('.jade-guides-widget').toggle()
+    });
     var script = document.createElement('script');
     script.type = 'text/javascript';
     script.src = 'https://player.kompassify.com/kompassifyPlayer.js?uuid=782283f5-ce0f-4d29-a02b-65eb5196365b';
