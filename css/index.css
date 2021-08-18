@@ -1,7 +1,7 @@
 .jade-widget-container{
     position: fixed !important;
     display: flex !important;
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
     justify-content: flex-end !important;
     align-items: flex-end !important;
     box-sizing: border-box !important;
@@ -54,6 +54,6 @@
     height: 55px !important;
     visibility: visible !important;
     z-index: 2147483647 !important;
-    margin: 10px !important;
+    margin: 0 !important;
     opacity: 1 !important;
 }
