@@ -1,4 +1,20 @@
-
+.jade-widget-container{
+    position: fixed !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    z-index: 2147483647 !important;
+    top: auto !important;
+    right: 12px !important;
+    bottom: 12px !important;
+    left: auto !important;
+    background-color: transparent !important;
+    padding: 6px 8px 6px 6px !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+}
 .jade-guides-widget{
     position: fixed !important;
     display: inline-block !important;
@@ -10,7 +26,7 @@
     left: auto !important;
     color: #AAADB0 !important;
     background-color: #fff !important;
-    border-radius: 3px !important;
+    border-radius: 20px !important;
     padding: 6px 8px 6px 6px !important;
     font-size: 12px !important;
     opacity: 1 !important;
@@ -24,4 +40,14 @@
     white-space: nowrap;
     box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
     cursor: pointer;
+}
+.jade-widget-icon{
+    position: relative !important;
+    display: inline-block !important;
+    width: 55px !important;
+    height: 55px !important;
+    visibility: visible !important;
+    z-index: 2147483647 !important;
+    margin: 10px !important;
+    opacity: 1 !important;
 }
