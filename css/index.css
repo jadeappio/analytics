@@ -1,7 +1,7 @@
 .jade-widget-container{
     position: fixed !important;
     display: flex !important;
-    flex-direction: column-reverse !important;
+    flex-direction: column !important;
     justify-content: flex-end !important;
     align-items: flex-end !important;
     box-sizing: border-box !important;
