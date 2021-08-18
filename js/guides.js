@@ -1,7 +1,13 @@
 window.onload = function () {
+    var head = document.getElementsByTagName('head')[0];
+    var link = document.createElement('link');
+    link.href='https://jadeappio.github.io/jade/css/index.css';
+    link.rel='stylesheet';
+    link.type='text/css';
+    head.appendChild(link);
     var body = document.getElementsByTagName('body')[0];
     if (typeof jQuery == 'undefined') {
-        var jqscript = document.createElement('jqscript');
+        var jqscript = document.createElement('script');
         jqscript.type = 'text/javascript';
         jqscript.src='https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js';
         body.appendChild(jqscript);
@@ -9,16 +15,8 @@ window.onload = function () {
     } else {
         console.log('jquery pre-loaded');
     };
-    var j = window.document.createElement('iframe');
-    j.setAttribute('id', 'jade-guides-iframe');
+    var j = window.document.createElement('div');
     j.setAttribute('class', 'jade-guides-widget');
-    j.setAttribute('src', 'https://marvelapp.com/prototype/a4dc4j5');
-    j.setAttribute('width', '1440');
-    j.setAttribute('height', '1024');
-    j.setAttribute('allowTransparency', 'true');
-    j.setAttribute('frameborder', '0');
-    j.setAttribute('style', '-webkit-clip-path: inset(2px 2px); clip-path: inset(2px 2px);');
-    j.style.zIndex="9999999"
     window.document.body.appendChild(j);
     var script = document.createElement('script');
     script.type = 'text/javascript';
