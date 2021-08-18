@@ -25,10 +25,6 @@
     flex-direction: column !important;
     visibility: visible !important;
     z-index: 2147483647 !important;
-    top: auto !important;
-    right: 12px !important;
-    bottom: 12px !important;
-    left: auto !important;
     color: #AAADB0 !important;
     background-color: #fff !important;
     border-radius: 20px !important;
