@@ -18,10 +18,14 @@ window.onload = function () {
         header.setAttribute('class', 'jade-widget-header');
     var headerText = window.document.createElement('p');
         headerText.innerText=('Guides');
+    var close = window.document.createElement('img');
+        close.setAttribute('class', 'close-button');
+        close.setAttribute('src', 'https://global-uploads.webflow.com/6012075d53672289afd15fd5/60e8bcdb06d6b4800c055189_close-live-chat.svg');
     window.document.body.appendChild(container);
         container.appendChild(widget);
             widget.appendChild(header);
                 header.appendChild(headerText);
+                header.appendChild(close);
         container.appendChild(icon);
         console.log('jade widget loaded');
     if (typeof jQuery == 'undefined') {
@@ -35,6 +39,9 @@ window.onload = function () {
     };
     $('.jade-widget-icon').on('click', function () {
     	$('.jade-guides-widget').toggle()
+    });
+    $('.close-button').on('click', function () {
+    	$('.jade-guides-widget').hide()
     });
     var script = document.createElement('script');
         script.type = 'text/javascript';
