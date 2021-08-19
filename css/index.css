@@ -1,29 +1,25 @@
 .jade-widget-container{
-    position: fixed !important;
+    align-items: flex-end !important;
+    background-color: transparent !important;
+    bottom: 20px !important;
+    box-sizing: border-box !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-end !important;
-    align-items: flex-end !important;
-    box-sizing: border-box !important;
-    visibility: visible !important;
-    z-index: 2147483647 !important;
-    top: auto !important;
-    right: 20px !important;
-    bottom: 20px !important;
     left: auto !important;
-    background-color: transparent !important;
-    padding: 6px 8px 6px 6px !important;
-    transform: none !important;
     margin: 0 !important;
-    min-width: 225px !important;
     min-height: 400px !important;
-    overflow: visible !important;
+    min-width: 225px !important;
+    padding: 6px 8px 6px 6px !important;
+    position: fixed !important;
+    right: 20px !important;
+    top: auto !important;
+    z-index: 2147483647 !important;
 }
 .jade-guides-widget{
     position: relative !important;
-    display: block !important;
+    display: block;
     flex-direction: column !important;
-    visibility: visible !important;
     z-index: 2147483647 !important;
     color: #AAADB0 !important;
     background-color: #fff !important;
