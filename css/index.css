@@ -4,6 +4,7 @@
     bottom: 20px !important;
     box-sizing: border-box !important;
     display: flex !important;
+    font-family: Arial, Helvetica, sans-serif !important;
     flex-direction: column !important;
     justify-content: flex-end !important;
     left: auto !important;
@@ -21,11 +22,10 @@
     display: block;
     flex-direction: column !important;
     z-index: 2147483647 !important;
-    color: #AAADB0 !important;
+    color: #333 !important;
     background-color: #fff !important;
     border-radius: 20px !important;
     padding: 6px 8px 6px 6px !important;
-    font-size: 12px !important;
     opacity: 1 !important;
     line-height: 14px !important;
     text-decoration: none !important;
@@ -49,6 +49,8 @@
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
 }
 .jade-widget-icon{
     position: relative !important;

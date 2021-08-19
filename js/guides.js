@@ -16,8 +16,8 @@ window.onload = function () {
         icon.setAttribute('src', 'https://global-uploads.webflow.com/6012075d53672289afd15fd5/60f72968782b4b83587cf9e9_dash%20icons%20(13).png');
     var header = window.document.createElement('div');
         header.setAttribute('class', 'jade-widget-header');
-    var headerText = window.document.createElement('textarea');
-        headerText.innerText=('hello')
+    var headerText = window.document.createElement('p');
+        headerText.innerText=('Guides');
     window.document.body.appendChild(container);
         container.appendChild(widget);
             widget.appendChild(header);
