@@ -7,16 +7,16 @@ window.onload = function () {
     link.type='text/css';
     head.appendChild(link);
     console.log('jade widget stylesheet loaded');
-    var c = window.document.createElement('div');
-    c.setAttribute('class', 'jade-widget-container');
-    var j = window.document.createElement('div');
-    j.setAttribute('class', 'jade-guides-widget');
-    var i = window.document.createElement('img');
-    i.setAttribute('class', 'jade-widget-icon');
-    i.setAttribute('src', 'https://global-uploads.webflow.com/6012075d53672289afd15fd5/60f72968782b4b83587cf9e9_dash%20icons%20(13).png')
-    window.document.body.appendChild(c);
-    c.appendChild(j);
-    c.appendChild(i);
+    var container = window.document.createElement('div');
+    container.setAttribute('class', 'jade-widget-container');
+    var widget = window.document.createElement('div');
+    widget.setAttribute('class', 'jade-guides-widget');
+    var icon = window.document.createElement('img');
+    icon.setAttribute('class', 'jade-widget-icon');
+    icon.setAttribute('src', 'https://global-uploads.webflow.com/6012075d53672289afd15fd5/60f72968782b4b83587cf9e9_dash%20icons%20(13).png')
+    window.document.body.appendChild(container);
+    container.appendChild(widget);
+    container.appendChild(icon);
     console.log('jade widget loaded');
     if (typeof jQuery == 'undefined') {
         var jqscript = document.createElement('script');

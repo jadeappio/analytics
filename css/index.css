@@ -38,6 +38,18 @@
     box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
     cursor: pointer;
 }
+.jade-widget-header{
+    height: 20%;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 0;
+    display: flex;
+    margin-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
 .jade-widget-icon{
     position: relative !important;
     display: block !important;
