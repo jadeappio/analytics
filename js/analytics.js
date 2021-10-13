@@ -32,4 +32,7 @@ console.log('jade analytics loaded');
     e.__SV=1)
 }
 (document,window.posthog||[]);
-posthog.init('7R_blISMLOkJLSOCa4C_-vErLQIVOY2bvMrIpLhRtLA',{api_host:'https://app.posthog.com'})
+posthog.init('7R_blISMLOkJLSOCa4C_-vErLQIVOY2bvMrIpLhRtLA',{api_host:'https://app.posthog.com'});
+if (posthog.isFeatureEnabled('record')) {
+    posthog.startSessionRecording
+};
